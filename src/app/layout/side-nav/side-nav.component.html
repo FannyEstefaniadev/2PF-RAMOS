@@ -1,0 +1,50 @@
+<mat-drawer-container
+ #sideBar class="sidenav-container" 
+ autosize>
+    <mat-drawer
+     #drawer class="sidenav" 
+     mode="side" 
+     [opened]="sideBarOpen">
+        <mat-nav-list>
+            <a 
+            routerLink="home" 
+            mat-list-item>
+                <div>
+                    <h2>Inicio</h2>
+                </div>
+            </a>
+            <mat-divider></mat-divider>
+            <a 
+            routerLink="teachers" 
+            mat-list-item>
+                <div>
+                    <h2>Profesores</h2>
+                </div>
+            </a>
+            <mat-divider></mat-divider>
+            <a 
+            routerLink="login" 
+            mat-list-item>
+                <div>
+                    <h2>Administradores</h2>
+                </div>
+            </a>
+            <mat-divider></mat-divider>
+            <a 
+            routerLink="register" 
+            mat-list-item>
+                <div>
+                    <h2>Estudiantes</h2>
+                </div>
+            </a>
+            <mat-divider></mat-divider>
+        </mat-nav-list>
+
+        
+    </mat-drawer>
+
+    <div 
+    class="sidenav-content">
+        <ng-content></ng-content>
+    </div>
+</mat-drawer-container>

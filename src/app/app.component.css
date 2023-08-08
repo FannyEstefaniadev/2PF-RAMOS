@@ -1,0 +1,8 @@
+.title {
+    padding: 10px;
+    min-width: 340px;
+    font-size: 2rem;
+}
+.titleContainer {
+    text-align: center;
+}

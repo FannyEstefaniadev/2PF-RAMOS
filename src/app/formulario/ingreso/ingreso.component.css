@@ -1,0 +1,90 @@
+.buttonContainer {
+    display: flex;
+    flex: 1;
+    max-width: 60%;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.form{
+    margin: 0 5% 0 2%;
+    width: 40%;
+    min-width: 340px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.screen {
+    display: flex;
+    flex-direction: row;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+
+
+.red-background {
+    background-color: #ffdddd; 
+}
+
+
+.error-text {
+    color: #e74c3c;
+    font-family: 'Arial', sans-serif; 
+    font-size: 14px; 
+    font-weight: normal; 
+}
+.form {
+    background-color: #c9175e72; 
+    color: white; 
+    border-radius: 10px; 
+    padding: 20px; 
+    width: 50rem; 
+    margin: 0 auto; 
+
+  }
+  
+  .form-control {
+    background-color: #555; 
+    border: 1px solid #777;  
+    color: white; 
+    border-radius: 4px; 
+
+
+  }
+  
+
+ 
+  .is-valid {
+    border-color: #00cc00; 
+  }
+  
+
+  .is-invalid {
+    border-color: #ff0000; 
+  }
+  
+  
+  .valid-feedback {
+    color: #00cc00; 
+  }
+  
+ 
+  .invalid-feedback {
+    color: #ff0000; 
+  }
+  
+
+  .btn-primary {
+    background-color: #0014cc; 
+    border-color: #0033cc; 
+  }
+  
+  .btn-secondary {
+    background-color: #333; 
+    border-color: #777; 
+  }
